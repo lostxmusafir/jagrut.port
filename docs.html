@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Documentation — Aura</title>
+  <meta name="description" content="Conceptual documentation and navigation for the Aura preview site.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="external/fonts_googleapis_com/css2_6d5be293.html" rel="stylesheet">
+  <link rel="stylesheet" href="aura-pages.css">
+</head>
+<body>
+  <nav class="navbar" aria-label="Primary">
+    <a href="index.html" class="nav-brand">Aura</a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Overview</a>
+      <a href="infrastructure.html" class="nav-link">Infrastructure</a>
+      <a href="agents.html" class="nav-link">Agents</a>
+      <a href="scale.html" class="nav-link">Scale</a>
+      <a href="deploy.html" class="nav-link">Deploy</a>
+    </div>
+    <a href="deploy.html" class="nav-cta nav-cta-desktop">Deploy Now</a>
+    <button type="button" class="nav-menu-btn" id="navMenuBtn" aria-expanded="false" aria-controls="navDrawer" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="nav-scrim" id="navScrim" hidden="" aria-hidden="true"></div>
+  <div class="nav-drawer" id="navDrawer" hidden="">
+    <div class="nav-drawer-inner">
+      <a href="index.html" class="nav-drawer-link">Overview</a>
+      <a href="infrastructure.html" class="nav-drawer-link">Infrastructure</a>
+      <a href="agents.html" class="nav-drawer-link">Agents</a>
+      <a href="scale.html" class="nav-drawer-link">Scale</a>
+      <a href="deploy.html" class="nav-drawer-link">Deploy</a>
+      <a href="deploy.html" class="nav-drawer-cta">Deploy Now</a>
+    </div>
+  </div>
+
+  <main class="page-wrap">
+    <h1>Documentation</h1>
+    <p class="page-lead">There is no generated API reference here yet—this page maps the story you are building so navigation feels like a real product site.</p>
+
+    <section class="page-section">
+      <h2>Story chapters</h2>
+      <p><a href="infrastructure.html" style="color:#fff;">Infrastructure</a> — pipeline, ledger, and compliance framing.</p>
+      <p><a href="agents.html" style="color:#fff;">Agents</a> — autonomous operators and integrations.</p>
+      <p><a href="scale.html" style="color:#fff;">Scale</a> — volume, latency, and uptime narrative.</p>
+      <p><a href="deploy.html" style="color:#fff;">Deploy</a> — access and rollout (placeholder until forms exist).</p>
+    </section>
+
+    <section class="page-section">
+      <h2>Policies</h2>
+      <p><a href="security.html" style="color:#fff;">Security</a> and <a href="terms.html" style="color:#fff;">Terms of Service</a> give footer and legal links somewhere real to land.</p>
+    </section>
+
+    <footer class="page-footer">
+      <a href="index.html">← Back to overview</a>
+      <a href="deploy.html">Deploy</a>
+      <a href="security.html">Security</a>
+    </footer>
+  </main>
+  <script src="nav-mobile.js"></script>
+
+
+</body></html>

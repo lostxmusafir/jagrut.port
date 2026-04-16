@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Infrastructure — Aura</title>
+  <meta name="description" content="How Aura rebuilds enterprise data pipelines for zero-latency context.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="external/fonts_googleapis_com/css2_6d5be293.html" rel="stylesheet">
+  <link rel="stylesheet" href="aura-pages.css">
+</head>
+<body>
+  <nav class="navbar" aria-label="Primary">
+    <a href="index.html" class="nav-brand">Aura</a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Overview</a>
+      <a href="infrastructure.html" class="nav-link is-active" aria-current="page">Infrastructure</a>
+      <a href="agents.html" class="nav-link">Agents</a>
+      <a href="scale.html" class="nav-link">Scale</a>
+      <a href="deploy.html" class="nav-link">Deploy</a>
+    </div>
+    <a href="deploy.html" class="nav-cta nav-cta-desktop">Deploy Now</a>
+    <button type="button" class="nav-menu-btn" id="navMenuBtn" aria-expanded="false" aria-controls="navDrawer" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="nav-scrim" id="navScrim" hidden="" aria-hidden="true"></div>
+  <div class="nav-drawer" id="navDrawer" hidden="">
+    <div class="nav-drawer-inner">
+      <a href="index.html" class="nav-drawer-link">Overview</a>
+      <a href="infrastructure.html" class="nav-drawer-link is-active" aria-current="page">Infrastructure</a>
+      <a href="agents.html" class="nav-drawer-link">Agents</a>
+      <a href="scale.html" class="nav-drawer-link">Scale</a>
+      <a href="deploy.html" class="nav-drawer-link">Deploy</a>
+      <a href="deploy.html" class="nav-drawer-cta">Deploy Now</a>
+    </div>
+  </div>
+
+  <main class="page-wrap">
+    <h1>Zero-latency context</h1>
+    <p class="page-lead">Aura treats your operational data as a single, living system—not a pile of disconnected warehouses and batch jobs. This page is the long-form story behind the pipeline you glimpsed on the home experience.</p>
+
+    <section class="page-section">
+      <h2>Streaming ledger</h2>
+      <p>Every change from Kafka, Postgres, object storage, and custom sources lands in an immutable event ledger. Downstream models and agents read the same truth; there is no “reporting copy” that falls behind production.</p>
+      <p>Compilers optimize hot paths so queries that used to take minutes return in milliseconds, without you hand-tuning clusters every quarter.</p>
+    </section>
+
+    <section class="page-section">
+      <h2>Resilience by default</h2>
+      <p>Multi-region replication, automatic failover, and continuous verification mean your intelligence layer keeps running when a region or provider hiccups. The SLA is a product feature, not a sales footnote.</p>
+    </section>
+
+    <section class="page-section">
+      <h2>Compliance-ready</h2>
+      <p>Encryption in transit and at rest, fine-grained roles, and tamper-evident audit trails are built into the core—not bolted on as a separate “governance SKU.”</p>
+    </section>
+
+    <footer class="page-footer">
+      <a href="index.html">← Back to overview</a>
+      <a href="agents.html">Agents</a>
+      <a href="docs.html">Documentation</a>
+      <a href="security.html">Security</a>
+    </footer>
+  </main>
+  <script src="nav-mobile.js"></script>
+
+
+</body></html>
